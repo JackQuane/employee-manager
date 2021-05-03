@@ -1,4 +1,4 @@
-package com.quane.employeemanager;
+package com.quane.employeemanager.controller;
 
 import com.quane.employeemanager.model.Employee;
 import com.quane.employeemanager.service.EmployeeService;

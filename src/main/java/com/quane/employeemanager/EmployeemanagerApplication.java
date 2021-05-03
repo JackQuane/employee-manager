@@ -15,8 +15,15 @@ import java.util.Arrays;
 public class EmployeemanagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeemanagerApplication.class, args);
-	}
+//		try {
+			SpringApplication.run(EmployeemanagerApplication.class, args);
+//			System.out.println("pppppp");
+//		} catch (Exception e){
+//			e.printStackTrace();
+//			System.out.println("geg");
+		}
+
+//	}
 
 //	@Bean
 //	public CorsFilter corsFilter() {
