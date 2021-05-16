@@ -49,6 +49,7 @@ public class RegistrationService {
         return token;
     }
 
+    //called from link in verification email using request param
     @Transactional
     public String confirmToken(String token) {
         ConfirmationToken confirmationToken = confirmationTokenService
